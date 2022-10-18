@@ -26,14 +26,14 @@ const About = () => {
           </h2>
         </div>
         <p
-          className="md:text-bod-md mb-12"
+          className="mb-12 md:text-bod-md"
           data-aos="fade-up"
           data-aos-delay="200"
         >
           {subtitle1}
         </p>
         <p
-          className="md:text-bod-md mb-8"
+          className="mb-8 md:text-bod-md"
           data-aos="fade-up"
           data-aos-delay="300"
         >
@@ -41,8 +41,8 @@ const About = () => {
         </p>
         <div data-aos="fade-up" data-aos-delay="400">
           <a
-            className="link flex items-center gap-x-4 hover:gap-x-6 transition-all"
-            href="#"
+            className="flex items-center transition-all link gap-x-4 hover:gap-x-6"
+            href="/"
           >
             {link}
             <IoIosArrowDroprightCircle className="text-2xl" />

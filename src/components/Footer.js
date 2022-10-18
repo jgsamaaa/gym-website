@@ -14,11 +14,11 @@ const Footer = () => {
         data-aos-delay="200"
       >
         {/* logo */}
-        <a href="#">
+        <a href="/">
           <img className="" src={logo} alt="" />
         </a>
         {/* copyright text */}
-        <p className="text-neutral-300 text-sm">{copyrightText}</p>
+        <p className="text-sm text-neutral-300">{copyrightText}</p>
       </div>
     </footer>
   );
