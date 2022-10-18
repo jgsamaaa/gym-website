@@ -96,7 +96,7 @@ export const pricing = {
       name: 'Basic',
       price: '20',
       list: [
-        { name: 'unlimited gym access' },
+        { name: 'Unlimited gym access' },
         { name: '1 training programs' },
         { name: 'free fitness consultation' },
       ],
@@ -106,7 +106,7 @@ export const pricing = {
       name: 'Premium',
       price: '35',
       list: [
-        { name: 'unlimited gym access' },
+        { name: 'Unlimited gym access' },
         { name: '5 training programs' },
         { name: 'free fitness consultation' },
         { name: 'personal trainer' },
@@ -117,7 +117,7 @@ export const pricing = {
       name: 'Elite',
       price: '49',
       list: [
-        { name: 'unlimited gym access' },
+        { name: 'Unlimited gym access' },
         { name: 'all training programs' },
         { name: 'free fitness consultation' },
         { name: 'personal trainer' },
@@ -161,7 +161,7 @@ export const community = {
 
 export const faq = {
   icon: QuestionMarkIcn,
-  title: 'FAQ',
+  title: 'FAQs',
   accordions: [
     {
       question: 'How can I book a workout class?',
