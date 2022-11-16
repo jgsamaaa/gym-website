@@ -7,12 +7,12 @@ const Banner = () => {
   // destructure banner data
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
   return (
-    <section className="bg-neutral-500 h-[790px]">
-      <div className="container mx-auto h-full">
-        <div className="flex items-center h-full relative -space-x-48 lg:-space-x-24">
-          <div className="text-white flex-1 z-10 pl-6 lg:pl-0">
+    <section id="home" className="bg-neutral-500 h-[790px]">
+      <div className="container h-full mx-auto">
+        <div className="relative flex items-center h-full -space-x-48 lg:-space-x-24">
+          <div className="z-10 flex-1 pl-6 text-white lg:pl-0">
             <h1
-              className="h1 text-white mb-8"
+              className="mb-8 text-white h1"
               data-aos="fade-down"
               data-aos-delay="500"
             >
@@ -36,7 +36,7 @@ const Banner = () => {
           </div>
           {/* image */}
           <div
-            className="bg-purple-50 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1"
+            className="flex-1 w-full h-full bg-right bg-no-repeat bg-cover bg-purple-50 bg-banner lg:bg-center"
             data-aos="fade-right"
             data-aos-delay="900"
           ></div>

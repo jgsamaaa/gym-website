@@ -59,7 +59,14 @@ const Header = () => {
       </div>
 
       {/* nav mobile - hide on desktop */}
-      <NavMobile navMobile={navMobile} />
+      <div
+        onClick={() => setNavMobile(false)}
+        className={`${navMobile ? 'max-h-full' : 'max-h-0 overflow-hidden'} ${
+          isActive ? 'top-[100px] lg:top-[110px]' : 'top-[120px] lg:top-[150px]'
+        } fixed left-0 -z-10 w-full h-full bg-white transition-all duration-300 xl:hidden`}
+      >
+        <NavMobile navMobile={navMobile} />
+      </div>
     </header>
   );
 };
