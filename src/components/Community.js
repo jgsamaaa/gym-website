@@ -10,7 +10,7 @@ const Community = () => {
   // destructure community data
   const { icon, title, testimonials } = community;
   return (
-    <section className="section relative">
+    <section id="community" className="relative section">
       <div className="container mx-auto">
         <div className="flex">
           {/* section title */}
