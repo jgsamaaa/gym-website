@@ -1,8 +1,6 @@
-# Project Title
+# GymME
 
-Gym Website.
-
-I made this website to practice my coding skills.
+A gym website I made to practice my coding skills.
 
 Live Server: https://gabrieltattoo.netlify.app/
 
