@@ -2,7 +2,7 @@
 
 A gym website I made to practice my coding skills.
 
-Live Server: https://gabrieltattoo.netlify.app/
+Live Server: https://gabrielgym.netlify.app/
 
 ## Main Page
 
